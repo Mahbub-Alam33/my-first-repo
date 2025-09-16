@@ -1,0 +1,15 @@
+import turtle 
+
+screen = turtle.Screen()
+screen.setup(width = 1000, height = 600)
+screen.bgcolor("green")
+t = turtle.Turtle()
+t.color("red")
+t.begin_fill()
+t.penup()
+t.goto(0,-100)
+t.pendown()
+t.circle(100)
+t.end_fill()
+t.hideturtle()
+turtle.done()
